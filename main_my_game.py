@@ -175,12 +175,12 @@ if __name__ == "__main__":
                         if inhabitant.fight(fight_with,spot_to_harm) == True:
                             print('Congratulations,you`ve killed the mafia don - this mean that you won the game!')
                             dead = 0
-                            exit("You've won")
+                            exit("The end")
 
                         else:
                             print('I`m sorry but mafia don has killed you in a horrible fight!You`ve lost')
                             dead = 0
-                            exit("You've lost")
+                            exit("The end")
 
                     
                 elif inhabitant == mafia_helper or inhabitant == mafia_man:
