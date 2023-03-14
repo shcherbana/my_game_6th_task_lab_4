@@ -1,17 +1,22 @@
 """Classes for Lviv game"""
 class Gamer:
+    """Class for a user"""
     def __init__(self , name) -> None:
+        """Construcrs a gamer"""
         self.lives = 1
         self.name = name
         self.backpack = []
 
     def add_to_backpack(self , item):
+        """Apends to the backpack"""
         self.backpack.append(item)
     
     def add_lives(self,quantity):
+        """Adds lives"""
         self.lives += quantity
     
     def minus_lives(self,quantity):
+        """Minuses lives"""
         self.lives -= quantity
 
 class Character:
